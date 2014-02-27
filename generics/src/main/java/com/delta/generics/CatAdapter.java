@@ -16,6 +16,8 @@ public class CatAdapter {
     private RatingBar ratingBar;
     private ImageView imageView;
 
+    private Cat t;
+
     public CatAdapter(Activity aActivity, TextView aName, TextView aDescription, RatingBar aBar, ImageView aImageView){
         this.activity = aActivity;
         this.name = aName;
@@ -23,9 +25,6 @@ public class CatAdapter {
         this.ratingBar = aBar;
         this.imageView = aImageView;
     }
-
-    // T stands for "Type"
-    private Cat t;
 
     public void set(Cat t) {
         this.t = t;
