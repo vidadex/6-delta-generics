@@ -32,7 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="descripaasdfasasdfasdfasdfdfasdfasdfasfasfasdftion"
+        android:text="a much longer description of some sort or kind that i haven't put here yet"
         android:textSize="20sp"
         android:background="#77000000"
         android:textColor="#FFFFFF"
